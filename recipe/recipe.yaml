@@ -1,6 +1,6 @@
 context:
   name: certbot-dns-gehirn
-  version: "5.2.2"
+  version: "5.3.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: e652c9d4ecd1735082a2bf81d246a3c2fad0b4907984123b55da67ad5dab0a01
+  sha256: b56aebf6ea94cc326623c02e29b846a00fd9bcb6084bfa6c1205b868d7fa6946
 
 build:
   noarch: python
